@@ -36,7 +36,7 @@ This project uses machine learning / deep learning techniques to analyze CAN mes
 
 ## ⚙️ Installation
 ```bash
-git clone https://github.com/your-username/CAN-Bus-Intrusion-Detection-System.git
+git clone https://github.com/sanjeev-kumar-04/CAN-Bus-Intrusion-Detection-System.git
 cd CAN-Bus-Intrusion-Detection-System
 
 pip install -r requirements.txt
@@ -48,12 +48,12 @@ pip install -r requirements.txt
 python main.py
 ```
 
-### ▶️ Run Prediction
+### ▶️ Run Simulation
 ```bash
 python test.py
 ```
 
-### ▶️ Run Web App (Streamlit / Flask)
+### ▶️ Run Web App (Streamlit)
 ```bash
 streamlit run app.py
 ```
