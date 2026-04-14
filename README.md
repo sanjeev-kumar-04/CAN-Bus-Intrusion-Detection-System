@@ -32,6 +32,15 @@ This project uses machine learning / deep learning techniques to analyze CAN mes
 5. Evaluation using accuracy, precision, recall, F1-score  
 6. Prediction on new CAN messages  
 
+---
+
+## ⚙️ Installation
+```bash
+git clone https://github.com/your-username/CAN-Bus-Intrusion-Detection-System.git
+cd CAN-Bus-Intrusion-Detection-System
+
+pip install -r requirements.txt
+```
 ## 🚀 How to Run
 
 ### ▶️ Train Model
@@ -53,7 +62,7 @@ streamlit run app.py
 
 ## 🧪 Dataset
 
-- CAN bus log dataset from: *(add your source link here)*  
+- CAN bus log dataset from: https://ocslab.hksecurity.net/Datasets/car-hacking-dataset 
 - Includes both **normal** and **attack traffic samples**  
 - Used for training and evaluation of the intrusion detection model  
 
